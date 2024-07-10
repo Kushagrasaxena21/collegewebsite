@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behaviour: smooth;
+}
+
+body {
+  background-color: #red;
+}
+
+::-webkit-scrollbar {
+  width; 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dbd9d9;
+}  
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+} 
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: limear-gradient(rgba(4, 9, 10, 0.7)),
+    url(images/Building.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding: 2% 3%;
+  justify-content: space-between;
+  aling-items: center;
+}
+
+nav img {
+  height: 120px;
+}
+
+.nav-links {
+  margin-top: -50px;
+  flex: 1;
+  text-aling: right;
+}
+
+  
